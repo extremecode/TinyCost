@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MemberViewController.h
 //  TinyCost
 //
 //  Created by Sam Xu on 2018/4/2.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MemberViewController : UIViewController
 
 @end
-

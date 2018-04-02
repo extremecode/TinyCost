@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
-#import "ViewController.h"
+#import "MemberViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,9 +21,9 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     MainViewController *mainVC = [[MainViewController alloc] init];
-    ViewController *secVC = [[ViewController alloc] init];
+    MemberViewController *memberVC = [[MemberViewController alloc] init];
     UITabBarController *rootVC = [[UITabBarController alloc] init];
-    rootVC.viewControllers = @[mainVC,secVC];
+    rootVC.viewControllers = @[mainVC,memberVC];
     self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
     return YES;

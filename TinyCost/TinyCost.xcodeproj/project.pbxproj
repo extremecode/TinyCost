@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1E9EA7E32071D1AF0053AE49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA7E22071D1AF0053AE49 /* AppDelegate.m */; };
-		1E9EA7E62071D1AF0053AE49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA7E52071D1AF0053AE49 /* ViewController.m */; };
 		1E9EA7EB2071D1AF0053AE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9EA7EA2071D1AF0053AE49 /* Assets.xcassets */; };
 		1E9EA7F12071D1AF0053AE49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA7F02071D1AF0053AE49 /* main.m */; };
 		1E9EA7F92071DF710053AE49 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA7F82071DF710053AE49 /* MainViewController.m */; };
+		1E9EA7FC2071E3370053AE49 /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA7FB2071E3370053AE49 /* MemberViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E9EA7DE2071D1AF0053AE49 /* TinyCost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyCost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9EA7E12071D1AF0053AE49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E9EA7E22071D1AF0053AE49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1E9EA7E42071D1AF0053AE49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1E9EA7E52071D1AF0053AE49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1E9EA7EA2071D1AF0053AE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E9EA7EF2071D1AF0053AE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E9EA7F02071D1AF0053AE49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E9EA7F72071DF710053AE49 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		1E9EA7F82071DF710053AE49 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1E9EA7FA2071E3370053AE49 /* MemberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemberViewController.h; sourceTree = "<group>"; };
+		1E9EA7FB2071E3370053AE49 /* MemberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemberViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +59,13 @@
 			children = (
 				1E9EA7E12071D1AF0053AE49 /* AppDelegate.h */,
 				1E9EA7E22071D1AF0053AE49 /* AppDelegate.m */,
-				1E9EA7E42071D1AF0053AE49 /* ViewController.h */,
-				1E9EA7E52071D1AF0053AE49 /* ViewController.m */,
 				1E9EA7EA2071D1AF0053AE49 /* Assets.xcassets */,
 				1E9EA7EF2071D1AF0053AE49 /* Info.plist */,
 				1E9EA7F02071D1AF0053AE49 /* main.m */,
 				1E9EA7F72071DF710053AE49 /* MainViewController.h */,
 				1E9EA7F82071DF710053AE49 /* MainViewController.m */,
+				1E9EA7FA2071E3370053AE49 /* MemberViewController.h */,
+				1E9EA7FB2071E3370053AE49 /* MemberViewController.m */,
 			);
 			path = TinyCost;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E9EA7E62071D1AF0053AE49 /* ViewController.m in Sources */,
+				1E9EA7FC2071E3370053AE49 /* MemberViewController.m in Sources */,
 				1E9EA7F12071D1AF0053AE49 /* main.m in Sources */,
 				1E9EA7E32071D1AF0053AE49 /* AppDelegate.m in Sources */,
 				1E9EA7F92071DF710053AE49 /* MainViewController.m in Sources */,
