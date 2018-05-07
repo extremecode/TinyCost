@@ -22,6 +22,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     MainViewController *mainVC = [[MainViewController alloc] init];
     MemberViewController *memberVC = [[MemberViewController alloc] init];
+    memberVC.tabBarItem.title = @"二";
     UITabBarController *rootVC = [[UITabBarController alloc] init];
     rootVC.viewControllers = @[mainVC,memberVC];
     self.window.rootViewController = rootVC;

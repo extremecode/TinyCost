@@ -16,9 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initUI];
     // Do any additional setup after loading the view.
 }
-
+- (void)initUI {
+    self.view.backgroundColor = [UIColor yellowColor];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
